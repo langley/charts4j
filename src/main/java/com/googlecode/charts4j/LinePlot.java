@@ -25,18 +25,17 @@
 
 package com.googlecode.charts4j;
 
-
 /**
  * For line plots including radar charts.
- *
+ * 
  * @author Julien Chastang (julien.c.chastang at gmail dot com)
  * @see Plots
  */
-interface LinePlot extends Curve{
+public interface LinePlot extends Curve {
 
     /**
      * Set the line style.
-     *
+     * 
      * @param lineStyle
      *            The line style to set. Cannot be null.
      */
@@ -44,7 +43,7 @@ interface LinePlot extends Curve{
 
     /**
      * Set the priority.
-     *
+     * 
      * @param priority
      *            for this plot. Cannot be null.
      */

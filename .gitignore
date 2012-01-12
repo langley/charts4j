@@ -1,0 +1,13 @@
+*~
+#*
+target
+.target
+.lib
+.history
+.cache
+.project
+.classpath
+project/boot
+lib_managed
+src_managed
+.ensime
